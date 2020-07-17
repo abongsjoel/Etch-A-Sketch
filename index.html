@@ -3,6 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    </style>
     <title>ETCH-A-SKETCH</title>
 </head>
 <body>
@@ -12,7 +18,7 @@
     <script>
         const container = document.querySelector('#container');
 
-        for(let i=0; i<1000; i++){
+        for(let i=0; i<6000; i++){
             const square = document.createElement('div');
             square.style.cssText = 'width: 16px; height: 16px; background-color: green;';
     
