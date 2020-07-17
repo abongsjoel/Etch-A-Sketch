@@ -19,13 +19,16 @@
     <script>
         const container = document.querySelector('#container');
 
-        for(let i=0; i<6000; i++){
-            const square = document.createElement('div');
-            square.style.cssText = 'width: 16px; height: 16px; box-sizing: border-box;';
-            
-            square.addEventListener('mouseover', changeColor);
-            container.appendChild(square);
+        function createGrid(side){
+            for(let i=0; i<6000; i++){
+                const square = document.createElement('div');
+                square.style.cssText = `width: ${side}px; height: ${side}px; box-sizing: border-box; border: 1px solid #ccc;`;
+                
+                square.addEventListener('mouseover', changeColor);
+                container.appendChild(square);
+            }
         }
+
 
         function changeColor() {
             this.style.backgroundColor = 'green';
@@ -36,8 +39,12 @@
         button.addEventListener('click', clearGrid);
 
         function clearGrid() {
+            container.innerHTML = '';
+            createGrid(64);
             console.log("you want to clear the grid");
         }
+
+        createGrid(16)
 
 
     </script>
