@@ -12,10 +12,13 @@
     <script>
         const container = document.querySelector('#container');
 
-        const square = document.createElement('div');
-        square.style.cssText = 'width: 16px; height: 16px; background-color: green;';
+        for(let i=0; i<1000; i++){
+            const square = document.createElement('div');
+            square.style.cssText = 'width: 16px; height: 16px; background-color: green;';
+    
+            container.appendChild(square);
+        }
 
-        container.appendChild(square);
 
     </script>
 </body>
