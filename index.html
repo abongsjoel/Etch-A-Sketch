@@ -40,7 +40,8 @@
 
         function clearGrid() {
             container.innerHTML = '';
-            createGrid(64);
+            const gridSize = prompt('How many squares per side to make the new grid?', 0);
+            createGrid(gridSize);
             console.log("you want to clear the grid");
         }
 
