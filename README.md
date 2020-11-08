@@ -5,7 +5,7 @@
 
 ![screenshot](../master/screenshot.png)
 
-In this project, i used plain HTML, CSS and JavaScript to build a browser version of something between a sketchpad and an Etch-A-Sketch. I created the divs using JavaScript and i used flexbox to make the divs appear as a grid. I also setup hover effects so that the grid divs change color when moused over, leaving a (pixalated) trail through the grid like a pen would. I also added a button to the top of the screen which will clear the current grid and send the user a popup asking for how many squares per side to make the new grid
+In this project, I used plain HTML, CSS and JavaScript to build a browser version of something between a sketchpad and an Etch-A-Sketch. I created the divs using JavaScript and I used flexbox to make the divs appear as a grid. I also setup hover effects so that the grid divs change color when moused over, leaving a (pixalated) trail through the grid like a pen would. I also added a button to the top of the screen which will clear the current grid and send the user a popup asking for how many squares per side to make the new grid
 
 ## Live Demo 
 
