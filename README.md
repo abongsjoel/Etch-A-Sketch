@@ -30,6 +30,12 @@ In this project, I used plain HTML, CSS and JavaScript to build a browser versio
 - [The Odin Project](https://www.theodinproject.com)
 - [w3schools](https://www.w3schools.com)
 
+## Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/abongsjoel/task-manager/issues).
+
 ## Show your support
 Give a ⭐️ if you like this project!
 
